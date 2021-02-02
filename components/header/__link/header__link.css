@@ -1,12 +1,7 @@
 .header__link {
-	display: inline-block;
-	text-decoration: none;
 	color: #5383bc;
-	text-transform: uppercase;
+	line-height: 0;
 	letter-spacing: 1.2px;
-	transition: .2s ease-in-out;
-}
-
-.header__link:hover {
-	color: #ea4781;
+	text-decoration: none;
+	text-transform: uppercase;
 }
