@@ -1,4 +1,11 @@
 @import url("../vendor/normalize.css");
 @import url("../vendor/fonts/fonts.css");
 @import url("../components/page/page.css");
-@import url("../components/page/__content-cantainer/page__content.css");
+@import url("../components/page/__content-container/page__content-container.css");
+@import url("../components/header/header.css");
+@import url("../components/header/__list/header__list.css");
+@import url("../components/header/list-item/header__list-item.css");
+@import url("../components/header/__link/header__link.css");
+@import url("../components/btn-styles-reset/btn-styles-reset.css");
+@import url("../components/header/__contact-btn/header__contact-btn.css");
+@import url("../components/header/__link/_type/header__link_type_phone.css");
