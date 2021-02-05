@@ -1,4 +1,5 @@
-.intro__description {
+.intro__about {
+	max-width: 420px;
 	margin-top: 15px;
 	margin-bottom: 40px;
 }

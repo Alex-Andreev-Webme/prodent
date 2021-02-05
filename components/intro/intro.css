@@ -1,10 +1,24 @@
 .intro {
-	padding: 85px 0 85px 75px;
-	background-image: url(../../images/intro-bg.png);
-	background-repeat: no-repeat;
-	background-position: top right;
-	background-size: contain;
+	box-sizing: border-box;
+	min-height: 585px;
+	padding-left: 75px;
 	border-radius: 10px;
-	box-shadow: 0px 4px 30px rgba(96, 179, 255, 0.1);
-	/* Не знаю, как сделать множественный градиент, как на макете */
+	background: url("../../images/intro-bg.png") no-repeat top right / contain;
+	box-shadow: 0 4px 30px rgba(96, 179, 255, 0.1);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	overflow: hidden;
+	position: relative;
+}
+
+.intro::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: url("../../images/intro-grad.png") no-repeat;
+	z-index: -10;
 }
