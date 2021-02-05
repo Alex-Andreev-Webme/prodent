@@ -9,3 +9,11 @@
 @import url("../components/btn-styles-reset/btn-styles-reset.css");
 @import url("../components/header/__contact-btn/header__contact-btn.css");
 @import url("../components/header/__link/_type/header__link_type_phone.css");
+@import url("../components/intro/intro.css");
+@import url("../components/intro/__title/intro__title.css");
+@import url("../components/intro/__span-accent/intro__span-accent.css");
+@import url("../components/intro/__span-accent/_roboto/intro__span-accent_roboto.css");
+@import url("../components/intro/__description/intro__description.css");
+@import url("../components/intro/__subtitle/intro__subtitle.css");
+@import url("../components/intro/__subtitle/_mediun/intro__subtitle_mediun.css");
+@import url("../components/intro/__contact-btn/intro__contact-btn.css");
