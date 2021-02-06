@@ -1,4 +1,4 @@
-.services__photo-grid {
+.services__grid {
 	display: grid;
 	gap: 15px;
 }
