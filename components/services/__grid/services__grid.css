@@ -1,0 +1,7 @@
+.services__grid {
+	display: grid;
+	gap: 15px;
+	grid-template-columns: 350px repeat(2, 1fr) 255px;
+	grid-template-rows: repeat(2, 1fr);
+	min-height: 560px;
+}
