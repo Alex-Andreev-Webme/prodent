@@ -19,7 +19,8 @@
 @import url("../components/intro/__contact-btn/intro__contact-btn.css");
 @import url("../components/services/services.css");
 @import url("../components/services/__top/services__top.css");
-@import url("../components/section-title/section-title.css");
+@import url("../components/section/section.css");
+@import url("../components/section/__title/section__title.css");
 @import url("../components/services/__link/services__link.css");
 @import url("../components/services/__grid/services__grid.css");
 @import url("../components/services/__banner/services__banner.css");
@@ -34,3 +35,16 @@
 @import url("../components/services/__description/services__description.css");
 @import url("../components/services/__description/_centered/services__description_centered.css");
 @import url("../components/services/__price/services__price.css");
+@import url("../components/prices/prices.css");
+@import url("../components/prices/__content/prices__content.css");
+@import url("../components/prices/__sidebar/prices__sidebar.css");
+@import url("../components/prices/__link/prices__link.css");
+@import url("../components/prices/__link/_active/prices__link_active.css");
+@import url("../components/table/table.css");
+@import url("../components/table/__row/table__row.css");
+@import url("../components/table/__row/_place/table__row_place_head.css");
+@import url("../components/table/__title/table__title.css");
+@import url("../components/table/__title/_align/table__title_align_left.css");
+@import url("../components/table/__text/table__text.css");
+@import url("../components/table/__text/_align/table__text_align_left.css");
+@import url("../components/table/__text/_color/table__text_color_green.css");

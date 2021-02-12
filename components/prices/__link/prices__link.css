@@ -1,0 +1,11 @@
+.prices__link {
+	margin-bottom: 20px;
+	font-size: 20px;
+	color: #b0b0b0;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.prices__link:last-child {
+	margin-bottom: 0;
+}

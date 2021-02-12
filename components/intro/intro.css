@@ -7,4 +7,5 @@
 	justify-content: center;
 	border-radius: 10px;
 	background: url("../../images/intro-bg.png") no-repeat right / contain, url("../../images/intro-grad.png") no-repeat 100%;
+	overflow: hidden;
 }

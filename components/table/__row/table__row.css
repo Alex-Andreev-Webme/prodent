@@ -1,0 +1,5 @@
+.table__row {
+	height: 40px;
+	background-color: rgba(233, 243, 255, .6);
+	text-align: right;
+}
