@@ -1,3 +1,4 @@
 .prices__content {
 	display: flex;
+	align-items: baseline;
 }

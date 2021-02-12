@@ -1,0 +1,15 @@
+.profile__search-btn {
+	padding: 0;
+	width: 20px;
+	height: 20px;
+	display: flex;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background: transparent url("../../../images/icons/search-icon.svg") no-repeat center;
+	transition: .2s ease-in-out;
+}
+
+.profile__search-btn:hover {
+	transform: scale(1.25);
+}

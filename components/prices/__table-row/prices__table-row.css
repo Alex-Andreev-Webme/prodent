@@ -1,0 +1,18 @@
+.prices__table-row {
+	min-height: 40px;
+	margin-bottom: 20px;
+	padding: 0 15px;
+	display: grid;
+	grid-template-columns: 70% 10% 20%;
+	align-content: center;
+	/* display: flex;
+	justify-content: space-between;
+	align-items: center; */
+	font-size: 18px;
+	background-color: rgba(233, 243, 255, 0.6);
+	border-radius: 5px;
+}
+
+.prices__table-row:last-child {
+	margin-bottom: 0;
+}
