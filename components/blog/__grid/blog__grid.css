@@ -1,0 +1,7 @@
+.blog__grid {
+	min-height: 620px;
+	display: grid;
+	gap: 15px;
+	grid-template-columns: 340px 1fr 250px;
+	grid-template-rows: repeat(2, 1fr);
+}
