@@ -1,3 +1,8 @@
 .blog__link_color_blue {
+	margin-bottom: 5px;
 	color: #5383bc;
+}
+
+.blog__link_color_blue:last-child {
+	margin-bottom: 0;
 }
