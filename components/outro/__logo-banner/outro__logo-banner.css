@@ -3,4 +3,21 @@
 	min-height: 230px;
 	background: #ea4681;
 	border-radius: 10px 0 0 10px;
+	position: relative;
+}
+
+.outro__logo-banner::after {
+	content: url("../../../images/outro-logo.png");
+	position: absolute;
+	top: 50%;
+	left: 40px;
+	transform: translateY(-50%);
+}
+
+.outro__logo-banner::before {
+	content: url("../../../images/outro-prodent.png");
+	position: absolute;
+	top: 50%;
+	right: 40px;
+	transform: translateY(-50%);
 }
