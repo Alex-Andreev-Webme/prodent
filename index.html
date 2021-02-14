@@ -10,6 +10,19 @@
 </head>
 
 <body class="page">
+	<!-- Попап -->
+	<div class="popup">
+		<div class="popup__container">
+			<button type="button" class="popup__close-btn"></button>
+			<h2 class="popup__title">Оставить заявку на звонок</h2>
+			<form action="#" class="popup__form">
+				<input type="text" class="popup__input" required placeholder="Ваше имя">
+				<input type="text" class="popup__input" required placeholder="Ваша фамилия">
+				<input type="text" class="popup__input" required placeholder="Ваш телефон">
+				<button type="submit" class="popup__submit-btn">Отправить</button>
+			</form>
+		</div>
+	</div>
 	<div class="page__content">
 		<!-- Шапка -->
 		<header class="header">
@@ -35,7 +48,7 @@
 					</li>
 				</ul>
 			</nav>
-			<button class="header__contact-btn button">Записаться</button>
+			<button type="button" class="header__contact-btn button contact-button">Записаться</button>
 			<a href="tel:88507775050" class="header__link header__link_type_phone">8 850 777 50 50</a>
 		</header>
 		<!-- Секция интро -->
@@ -51,7 +64,7 @@
 				<p class="intro__subtitle">Гарантия на импланты<span class="span-accent span-accent_bolder"> — 10 лет</span>
 				</p>
 			</div>
-			<button class="intro__contact-btn button">Записаться на приём</button>
+			<button class="intro__contact-btn button contact-button">Записаться на приём</button>
 		</section>
 		<!-- Секция услуги -->
 		<section class="services section">
@@ -188,7 +201,7 @@
 					</div>
 					<a href="#" target="_blank" class="doctors__link">Записаться</a>
 				</div>
-				<div class="doctros__card doctros__card_position_right">
+				<div class="doctros__card">
 					<img src="./images/doctors-pavlov.png" alt="Никита Павлов, стоматолог - хирург, стаж 14 лет"
 						class=" doctors__picture">
 					<h3 class="doctors__name">Никита павлов</h3>
@@ -216,7 +229,7 @@
 					</div>
 					<a href="#" target="_blank" class="doctors__link">Записаться</a>
 				</div>
-				<div class="doctros__card doctros__card_position_right">
+				<div class="doctros__card">
 					<img src="./images/doctors-sidorova.png" alt="Ольга Сидорова, стоматолог, стаж 8 лет"
 						class="doctors__picture">
 					<h3 class="doctors__name">Ольга Сидорова</h3>

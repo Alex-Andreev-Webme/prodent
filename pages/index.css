@@ -1,6 +1,14 @@
 @import url("../vendor/normalize.css");
 @import url("../vendor/fonts/fonts.css");
 @import url("../components/page/page.css");
+@import url("../components/popup/popup.css");
+@import url("../components/popup/_opened/poup_opened.css");
+@import url("../components/popup/__container/popup__container.css");
+@import url("../components/popup/__close-btn/popup__close-btn.css");
+@import url("../components/popup/__form/popup__form.css");
+@import url("../components/popup/__title/popup__title.css");
+@import url("../components/popup/__input/popup__input.css");
+@import url("../components/popup/__submit-btn/popup__submit-btn.css");
 @import url("../components/page/__content/page__content.css");
 @import url("../components/header/header.css");
 @import url("../components/header/__list/header__list.css");
@@ -56,7 +64,6 @@
 @import url("../components/doctors/__grid/doctors__grid.css");
 @import url("../components/doctors/__card/doctros__card.css");
 @import url("../components/doctors/__card/_position/doctros__card_position_left.css");
-@import url("../components/doctors/__card/_position/doctros__card_position_right.css");
 @import url("../components/doctors/__card/_text/doctros__card_text_right.css");
 @import url("../components/doctors/__picture/doctors__picture.css");
 @import url("../components/doctors/__picture/_position/doctors__picture_position_left.css");

@@ -1,7 +1,10 @@
 .blog__link {
-	display: inline-block;
 	margin-top: 10px;
 	font-weight: 500;
 	color: #ea4681;
 	text-decoration: none;
+}
+
+.blog__link:hover {
+	text-decoration: underline;
 }
