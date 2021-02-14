@@ -1,1 +1,4 @@
-https://www.figma.com/file/gnCQUDRjEQ2jbqVTze550Q/Prodent-(Copy)?node-id=0%3A1
+# Стоматологическая клиника Prodent
+
+----
+[Ссылка на проект](https://alex-andreev-webme.github.io/prodent/ "Prodent")
